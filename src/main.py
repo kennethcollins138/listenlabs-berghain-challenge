@@ -1,3 +1,6 @@
+from util import config
+
+
 def main():
     """
     Goals: 
@@ -6,6 +9,8 @@ def main():
         a) 40% Berlin locals
         b) 80% wearing black
     """
+    cfg = config.load_config()
+    print(cfg)
      
 
 if __name__ == "__main__":
